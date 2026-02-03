@@ -35,9 +35,9 @@ int main(int argc, char** argv)
         char key = getKey();
 
         if (key == 'a')
-            angle = std::min(angle + 5, 180);
+            angle = std::min(angle + 5, 160);
         else if (key == 'd')
-            angle = std::max(angle - 5, 0);
+            angle = std::max(angle - 5, 20);
         else if (key == 'q')
             break;
 
